@@ -6,7 +6,7 @@
     "@popperjs/core": "^2.5.4",
     "axios": "^0.21.1",
     "bootstrap": "next",
-    "node-sass": "^5.0.0",
+    "node-sass": "^4.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-router-dom": "^5.2.0"
