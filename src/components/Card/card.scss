@@ -1,0 +1,32 @@
+.card--movie {
+  position: relative;
+  &:hover {
+    transform: translateY(-10px);
+    transition: 0.2s ease-in-out all;
+    box-shadow: 0 10px 13px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  &__footer {
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    padding: 16px;
+    background-color: #fff;
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    .card--movie__footer {
+      bottom: 0;
+    }
+  }
+}
